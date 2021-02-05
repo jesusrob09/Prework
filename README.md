@@ -1,5 +1,4 @@
-# Prework
-# Pre-work - *Tip Calculator*
+# Pre-work - *Name of App Here*
 
 **Tip Calculator** is a tip calculator application for iOS.
 
@@ -17,33 +16,31 @@ The following **required** functionality is complete:
 The following **optional** features are implemented:
 
 * [X] UI animations
-* [] Remembering the bill amount across app restarts (if <10mins)
+* [ ] Remembering the bill amount across app restarts (if <10mins)
+* [ ] Using locale-specific currency and currency thousands separators.
 * [X] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
-* [X] Party Size total calculation
 
 The following **additional** features are implemented:
 
-- [ ] 
+- [X] Added Party Size feature with stepper to split bill
+- [X] Set up background color and emphasized font sizes
 
-## Video Walkthrough
+## Video Walkthrough[](https://)## Video Walkthrough[](https://)
 
 Here's a walkthrough of implemented user stories:
+![](https://i.imgur.com/pBjaB7A.gif)
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
 Describe any challenges encountered while building the app.
-  - Challenges I encountered included a bug when adding a navigation control. I meant to add a settings page, but I encountered a Thread Break error in
-    super.didViewLoad() that I was not able to find a clear solution for. This ultimately let me explore more app features that I will consider adding later on. 
-    I look forward to learning more about swift.
+I encountered multiple challenges while completing this project. One challenge was a thread break bug that always happened when I added a navigation controller and included Settings. I was not able to find a clear solution towards that. This did allow me to explore more features which I am excited to implement later on. I look forward to learning more. 
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
-               2021   Jesus Robles ?
+    Copyright [yyyy] [Name]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
